@@ -1,0 +1,374 @@
+/********** CLASSES POUR TEXTES ***********/
+
+/* Gros titre blanc */
+.lh-title-b-white {
+  font-size: 54px;
+  line-height: 60px;
+  font-family: "Fugaz One", cursive;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* Gros titre noir */
+.lh-title-b-black {
+  font-size: 54px;
+  line-height: 60px;
+  font-family: "Fugaz One", cursive;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* Petit titre noir */
+.lh-title-s-black {
+  font-size: 25px;
+  font-family: "Fugaz One", cursive;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+/* Sous-titre orange */
+.lh-subtitle-orange {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #f39400;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Sous-titre violet */
+.lh-subtitle-purple {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #261e36;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Texte moyen noir */
+.lh-text-m-black {
+  margin-bottom: 30px;
+  font-size: 23px;
+  line-height: 30px;
+  color: #000;
+}
+
+/* Texte moyen blanc */
+.lh-text-m-white {
+  margin-bottom: 30px;
+  font-size: 23px;
+  line-height: 30px;
+  color: #fff;
+}
+
+/* Texte petit noir */
+.lh-text-s-black {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+/* Texte petit blanc */
+.lh-text-s-white {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/********** HEADER HOME ***********/
+
+/* Image de fond du header */
+.lh-home header.lh-header {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("./img/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Bouton du header */
+.lh-home .lh-header-content {
+  margin-bottom: 120px;
+  display: flex;
+  align-items: end;
+}
+
+/********** FORMATIONS ***********/
+
+/* Padding et couleur de fond */
+.lh-home .lh-formations {
+  padding: 100px 45px;
+  padding-top: 90px;
+  background-color: #fcf7f8;
+}
+
+/* Bordure des formations */
+.lh-home .lh-formations-container {
+  border: 1px solid #f39400;
+}
+
+/* Bloc formation */
+.lh-home .lh-formations-formation {
+  border: 1px solid #ada7b9;
+  background-color: #fefcfc;
+  padding: 20px;
+  margin: 4% 2% !important;
+}
+
+/* Image de fond d'une formation */
+.lh-home .lh-formations-formation-img {
+  border: 1px solid #ada7b9;
+  height: 200px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+/* Titre de la formation */
+.lh-home .lh-formations-formation-text {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+/* Note d'une formation */
+.lh-home .lh-formations-formation-stars {
+  color: #f39400;
+}
+
+/********** PERSONNAGES ***********/
+
+/* Padding et couleur de fond */
+.lh-home section.lh-personnages {
+  padding: 100px 45px 100px 0;
+  background-color: #fff;
+}
+
+/* Demi cercle background */
+.lh-home .lh-personnages-container {
+  background-image: url("./img/demicercle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Marge et structure liste des personnages */
+.lh-home .lh-personnages-listpersos {
+  margin: 0 auto 50px;
+  width: max-content;
+  display: flex;
+}
+
+/* Bordure d'un personnage */
+.lh-home .lh-personnages-listpersos-bg {
+  width: 90px;
+  height: 90px;
+  border-radius: 110px;
+  background-color: #fff;
+  border: 1px solid #ada7b9;
+  margin: 0 20px 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image d'un personnage */
+.lh-home .lh-personnages-listpersos-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  background-position: center;
+  background-size: 140%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* Personnage au survol */
+.lh-home .lh-personnages-listpersos-bg:hover {
+  border-color: #f39400;
+}
+
+/* Personnage actif */
+.lh-home .lh-personnages-listpersos-bg.active {
+  border-width: 2px;
+  border-color: #f39400;
+}
+
+/* Bordre personnage survol */
+.lh-home .lh-personnages-listpersos-bg:hover .lh-personnages-listpersos-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 110px;
+  background-size: 100%;
+}
+
+/********** JEU ***********/
+
+/* Padding et image de fond */
+.lh-home section.lh-jeu {
+  padding: 150px;
+  color: #fff;
+  background-image: url("./img/bg_jeu.png");
+  background-size: cover;
+}
+
+/********** PARTENAIRES ***********/
+
+/* Padding et couleur de fond */
+.lh-home section.lh-partenaires {
+  padding: 45px;
+  padding-top: 100px;
+  background-color: #fcf7f8;
+  text-align: center;
+}
+
+/* Espacer les logos partenaires */
+.lh-home section.lh-partenaires img {
+  margin: 0 50px !important;
+}
+
+/********** COMMUNAUTÉ ***********/
+
+/* Padding et couleur de fond */
+.lh-home section.lh-communaute {
+  padding: 100px 45px;
+  background: linear-gradient(#fcf7f8, #916d83, #292138, #292138);
+  color: #fff;
+}
+
+/********** COMMENTAIRES ***********/
+
+/* Padding et couleur de fond */
+.lh-home section.lh-commentaires {
+  padding: 100px 200px;
+  background-color: #fcf7f8;
+}
+
+/* _______________________________________________________________________________ */
+
+/* PRICE TAGS */
+
+/* Padding et couleur de fond */
+.lh-home section.lh-pricetags {
+  background-color: #fff;
+  text-align: center;
+  padding: 100px 150px;
+}
+
+/* Élément de pricetag, bordure, padding et margin */
+.lh-home .lh-pricetags-item {
+  border: 2px solid #000;
+  padding: 70px 40px 50px 40px !important;
+  margin: 0 2%;
+}
+
+/* Titre du pricetag */
+.lh-home .lh-pricetags-item-title {
+  font-size: 35px;
+  font-family: "Fugaz One", cursive;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/**/
+.lh-home .lh-pricetags-item-trophy {
+  margin-bottom: 20px;
+  width: 60px;
+}
+
+/* Conteneur du prix */
+.lh-home .lh-pricetags-item-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Prix */
+.lh-home .lh-pricetags-item-price-main {
+  font-family: "Fugaz One", cursive;
+  font-size: 60px;
+}
+
+/* Prix centimes */
+.lh-home .lh-pricetags-item-price-cents {
+  font-family: "Fugaz One", cursive;
+  font-size: 16px;
+}
+
+/* Prix /mois */
+.lh-home .lh-pricetags-item-price-month {
+  font-family: "Fugaz One", cursive;
+}
+
+/* Avantages */
+.lh-home .lh-pricetags-item-avantage {
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+/* Price tag vert */
+.lh-home .lh-pricetags-item.lh-pt-green {
+  border-color: #46c37f;
+}
+.lh-home .lh-pricetags-item.lh-pt-green .lh-pricetags-item-title {
+  color: #46c37f;
+}
+
+/* Price tag orange */
+.lh-home .lh-pricetags-item.lh-pt-orange {
+  border-color: #f39400;
+}
+.lh-home .lh-pricetags-item.lh-pt-orange .lh-pricetags-item-title {
+  color: #f39400;
+}
+
+/* Price tag bleu */
+.lh-home .lh-pricetags-item.lh-pt-blue {
+  border-color: #4cafed;
+}
+.lh-home .lh-pricetags-item.lh-pt-blue .lh-pricetags-item-title {
+  color: #4cafed;
+}
+
+/* Price tag violet */
+.lh-home .lh-pricetags-item.lh-pt-violet {
+  border-color: #6435c9;
+}
+.lh-home .lh-pricetags-item.lh-pt-violet .lh-pricetags-item-title {
+  color: #6435c9;
+}
+
+/********** INSCRIVEZ-VOUS ***********/
+
+/* Padding et image de fond */
+.lh-home section.lh-inscription {
+  background-image: url("./img/bg_fin.png");
+  background-size: cover;
+  padding: 250px 200px;
+}
+
+/********** FOOTER ***********/
+
+/* Marges */
+footer div {
+  margin: 50px 0;
+}
+
+/* Marges réseaux sociaux */
+footer .social {
+  margin-top: -25px;
+}
+
+/* Couleur des liens du footer */
+footer a {
+  color: #bab7bf !important;
+}
+
+/* Hover des liens du footer */
+footer a:hover {
+  color: #fff !important;
+}

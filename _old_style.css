@@ -1,0 +1,705 @@
+body {
+  font-size: 14px;
+  box-sizing: border-box;
+  font-family: "Oxygen", sans-serif;
+  color: #261e36;
+  background-color: #292138;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.lh-arrow {
+  width: 35px;
+  cursor: pointer;
+}
+
+/* BUTTONS */
+
+.lh-button-container {
+  border: 1px solid #f39400;
+  padding: 10px;
+  display: inline-block;
+}
+
+.lh-button {
+  background-color: #0098f7;
+  padding: 20px 50px 20px 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.lh-button:hover {
+  background-color: #10a4ff;
+}
+
+.lh-button:active {
+  background-color: #0098f7;
+}
+
+.lh-button-dark {
+  border: 1px solid #85818d;
+  color: #bab7bf;
+  padding: 20px 50px 20px 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.lh-button-dark:hover {
+  color: #e2dee9;
+}
+
+/* CONTENT */
+
+.lh-content {
+  padding-top: 66px;
+  width: 100%;
+  height: 600px;
+  z-index: 0;
+  height: 100%;
+}
+
+/************************* NAV *************************/
+
+nav.lh-nav {
+  height: 66px;
+  width: 98%;
+  position: fixed;
+  background-color: #120f18;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.lh-nav-menu-logo {
+  display: flex;
+  align-items: center;
+}
+
+.lh-nav-logo {
+  height: 40px;
+  margin-right: 40px;
+}
+
+.lh-nav-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.lh-nav-menu-item {
+  margin-right: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #e2dee9;
+}
+
+.lh-nav-menu-item:hover {
+  color: #fff;
+}
+
+.lh-nav-buttons .lh-button,
+.lh-nav-buttons .lh-button-dark {
+  padding: 10px 20px;
+  border-radius: 0px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+/************************* FOOTER *************************/
+
+footer.lh-footer {
+  padding: 50px 45px;
+  color: #bab7bf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lh-footer .lh-footer-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.lh-footer .lh-footer-reseaux {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.lh-footer .lh-footer-reseaux img {
+  width: 30px;
+}
+
+/************************* HOME *************************/
+
+/* HEADER */
+
+.lh-home header.lh-header {
+  height: 530px;
+  overflow: visible;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lh-home .lh-header-content {
+  padding: 90px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  z-index: 1;
+  margin-top: 15px;
+  width: 85%;
+  background-image: url("./img/banner1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 390px;
+}
+
+.lh-home .lh-header-title {
+  font-size: 23px;
+  color: #f39400;
+  text-transform: uppercase;
+}
+
+.lh-home .lh-header .lh-button-container {
+  margin-top: 390px;
+}
+
+/*.lh-home .lh-header-logo {
+  width: 420px;
+  margin-bottom: 15px;
+}
+
+.lh-home .lh-header-title .lh-header-title-name {
+  font-size: 27px;
+  font-family: "Fugaz One", cursive;
+}
+
+.lh-home .lh-header-subtext {
+  font-size: 23px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}*/
+
+/* FORMATIONS */
+
+.lh-home section.lh-formations {
+  padding: 100px 45px;
+  padding-top: 120px;
+  background-color: #fcf7f8;
+}
+
+.lh-home .lh-formations-title {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.lh-home .lh-formations-container {
+  border: 1px solid #f39400;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 45px 20px 45px 20px;
+}
+
+.lh-home .lh-formations-formation {
+  border: 1px solid #ada7b9;
+  background-color: #fefcfc;
+  width: 25%;
+  padding: 20px;
+  height: 265px;
+}
+
+.lh-home .lh-formations-formation-img {
+  border: 1px solid #ada7b9;
+  height: 200px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.lh-home .lh-formations-formation-text {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.lh-home .lh-formations-formation-stars {
+  color: #f39400;
+}
+
+/* PERSONNAGES */
+
+.lh-home section.lh-personnages {
+  padding: 100px 45px 100px 0;
+  background-color: #fff;
+}
+
+.lh-home .lh-personnages-container {
+  background-image: url("./img/demicercle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.lh-home .lh-personnages-perso {
+  /*height: 1000px;*/
+  height: 40%;
+  width: 40%;
+}
+
+.lh-home .lh-personnages-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+}
+
+.lh-home .lh-personnages-listpersos {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lh-home .lh-personnages-listpersos-bg {
+  width: 90px;
+  height: 90px;
+  border-radius: 110px;
+  background-color: #fff;
+  border: 1px solid #ada7b9;
+  margin: 0 20px 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lh-home .lh-personnages-listpersos-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  background-position: center;
+  background-size: 140%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.lh-home .lh-personnages-listpersos-bg:hover {
+  border-color: #f39400;
+}
+
+.lh-home .lh-personnages-listpersos-bg.active {
+  border-width: 2px;
+  border-color: #f39400;
+}
+
+.lh-home .lh-personnages-listpersos-bg:hover .lh-personnages-listpersos-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 110px;
+  background-size: 100%;
+}
+
+.lh-home .lh-personnages-text {
+  text-align: center;
+  width: 60%;
+}
+
+.lh-home .lh-personnages-text-title {
+  font-size: 54px;
+  line-height: 60px;
+  font-family: "Fugaz One", cursive;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.lh-home .lh-personnages-text-subtitle {
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+
+.lh-home .lh-personnages-text-desc {
+  font-size: 16px;
+  line-height: 25px;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+/* JEU */
+
+.lh-home section.lh-jeu {
+  padding: 150px;
+  color: #fff;
+  background-image: url("./img/bg_jeu.png");
+  background-size: cover;
+}
+
+.lh-home .lh-jeu-title {
+  font-size: 54px;
+  line-height: 60px;
+  font-family: "Fugaz One", cursive;
+  margin-bottom: 40px;
+}
+
+.lh-home .lh-jeu-subtitle {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #f39400;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lh-home .lh-jeu-text {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+/* PARTENAIRES */
+
+.lh-home section.lh-partenaires {
+  padding: 45px;
+  padding-top: 100px;
+  background-color: #fcf7f8;
+  text-align: center;
+}
+
+.lh-home .lh-partenaires-text {
+  font-size: 25px;
+  font-family: "Fugaz One", cursive;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+.lh-home .lh-partenaires-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lh-home .lh-partenaires-logos-logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 90px;
+  background-size: cover;
+  margin: 0 50px;
+  background-color: black;
+}
+
+/* COMMUNAUTÉ */
+
+.lh-home section.lh-communaute {
+  padding: 100px 45px;
+  background: linear-gradient(#fcf7f8, #916d83, #292138, #292138);
+  color: #fff;
+  text-align: center;
+}
+
+.lh-home .lh-communaute-banner {
+  width: 100%;
+}
+
+.lh-home .lh-communaute-rejoindre {
+  display: flex;
+  margin-top: 100px;
+  padding: 0 150px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.lh-home .lh-communaute-rejoindre-img-container {
+  border: 1px solid #fff;
+  width: 400px;
+  height: 400px;
+  border-radius: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.lh-home .lh-communaute-rejoindre-img {
+  width: 400px;
+  height: 400px;
+}
+
+.lh-home .lh-communaute-rejoindre-text {
+  margin-left: 100px;
+}
+
+.lh-home .lh-communaute-rejoindre-text-title {
+  font-size: 54px;
+  line-height: 60px;
+  font-family: "Fugaz One", cursive;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.lh-home .lh-communaute-rejoindre-text-subtitle {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #261e36;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lh-home .lh-communaute-rejoindre-text-text {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.lh-home .lh-communaute-jeux-ecran {
+  margin-top: 150px;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.lh-home .lh-communaute-jeux-text div {
+  margin-top: 15px;
+  font-style: italic;
+  font-size: 16px;
+}
+
+/* COMMENTAIRES */
+
+.lh-home section.lh-commentaires {
+  display: flex;
+  padding: 100px 200px;
+  background-color: #fcf7f8;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lh-home .lh-commentaires-auteur {
+  display: flex;
+}
+
+.lh-home .lh-commentaires-auteur-img {
+  width: 150px;
+  height: 150px;
+  margin-left: 30px;
+}
+
+.lh-home .lh-commentaires-auteur-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 50px 0 30px;
+}
+
+.lh-home .lh-commentaires-auteur-infos-name {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.lh-home .lh-commentaires-auteur-infos-job {
+  font-size: 16px;
+}
+
+.lh-home .lh-commentaires-text {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 50px;
+  width: 50%;
+}
+
+/* PRICE TAGS */
+
+.lh-home section.lh-pricetags {
+  background-color: #fff;
+  text-align: center;
+  padding: 100px 150px;
+}
+
+.lh-home .lh-pricetags-title {
+  font-size: 54px;
+  line-height: 60px;
+  font-family: "Fugaz One", cursive;
+  margin-bottom: 90px;
+  text-transform: uppercase;
+}
+
+.lh-home .lh-pricetags-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lh-home .lh-pricetags-item {
+  border: 2px solid #000;
+  width: 15%;
+  padding: 70px 40px 50px 40px;
+  min-width: 230px;
+}
+
+.lh-home .lh-pricetags-item-title {
+  font-size: 35px;
+  font-family: "Fugaz One", cursive;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.lh-home .lh-pricetags-item-trophy {
+  margin-bottom: 20px;
+  width: 60px;
+}
+
+.lh-home .lh-pricetags-item-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.lh-home .lh-pricetags-item-price-main {
+  font-family: "Fugaz One", cursive;
+  font-size: 60px;
+}
+
+.lh-home .lh-pricetags-item-price-cents {
+  font-family: "Fugaz One", cursive;
+  font-size: 16px;
+}
+
+.lh-home .lh-pricetags-item-price-month {
+  font-family: "Fugaz One", cursive;
+}
+
+.lh-home .lh-pricetags-item-avantages {
+  margin-bottom: 50px;
+}
+
+.lh-home .lh-pricetags-item-avantage {
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-green,
+.lh-home .lh-pricetags-item.lh-pt-green .lh-button-container {
+  border-color: #46c37f;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-green .lh-pricetags-item-title {
+  color: #46c37f;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-green .lh-button {
+  background-color: #46c37f;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-green .lh-button:hover {
+  background-color: #61cc91;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-green .lh-button:active {
+  background-color: #46c37f;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-orange {
+  border-color: #f39400;
+  border-width: 3px;
+  width: 20%;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-orange .lh-button-container {
+  border-color: #f39400;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-orange .lh-pricetags-item-title {
+  color: #f39400;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-orange .lh-pricetags-item-price-main {
+  font-size: 70px;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-orange .lh-pricetags-item-price-cents {
+  font-size: 20px;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-orange .lh-pricetags-item-price-month {
+  font-size: 18px;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-orange .lh-button {
+  background-color: #f39400;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-orange .lh-button:hover {
+  background-color: #ffb53d;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-orange .lh-button:active {
+  background-color: #f39400;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-blue,
+.lh-home .lh-pricetags-item.lh-pt-blue .lh-button-container {
+  border-color: #4cafed;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-blue .lh-pricetags-item-title {
+  color: #4cafed;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-blue .lh-button {
+  background-color: #4cafed;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-blue .lh-button:hover {
+  background-color: #6dc1f5;
+}
+
+.lh-home .lh-pricetags-item.lh-pt-blue .lh-button:active {
+  background-color: #4cafed;
+}
+
+/* INSCRIVEZ-VOUS */
+
+.lh-home section.lh-inscription {
+  background-image: url("./img/bg_fin.png");
+  background-size: cover;
+  padding: 250px 200px;
+  text-align: center;
+}
+
+.lh-home .lh-inscription-title {
+  font-size: 54px;
+  line-height: 60px;
+  font-family: "Fugaz One", cursive;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  color: #fff;
+}
