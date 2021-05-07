@@ -220,7 +220,7 @@ img.ui.bordered.image {
 .ui.mini.images img,
 .ui.mini.images svg,
 .ui.mini.image {
-  width: 35px;
+  width: 15px;
   height: auto;
   font-size: 0.78571429rem;
 }

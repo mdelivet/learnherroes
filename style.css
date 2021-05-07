@@ -47,6 +47,16 @@
   line-height: normal;
 }
 
+/* Sous-titre blanc */
+.lh-subtitle-white {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: normal;
+}
+
 /* Texte moyen noir */
 .lh-text-m-black {
   margin-bottom: 30px;
@@ -98,6 +108,33 @@
   padding-left: 10px;
   cursor: pointer;
   display: none !important;
+}
+
+/* Modale connexion */
+.lh-connexion {
+  background-color: rgba(0, 0, 0, 0.781);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lh-connexion-modale {
+  background-color: #fff;
+  width: 400px;
+  padding: 50px 50px;
+  text-align: center;
+}
+.lh-connexion-title {
+  text-align: center;
+  font-family: "Fugaz One", cursive;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.lh-connexion .input {
+  margin-bottom: 15px !important;
 }
 
 /********** FORMATIONS ***********/
@@ -212,8 +249,9 @@
 .lh-home section.lh-jeu {
   padding: 150px;
   color: #fff;
-  background-image: url("./img/bg_jeu.png");
-  background-size: cover;
+  background-color: #292138;
+  /*background-image: url("./img/bg_jeu.png");
+  background-size: cover;*/
 }
 
 /********** PARTENAIRES ***********/
@@ -222,7 +260,7 @@
 .lh-home section.lh-partenaires {
   padding: 45px;
   padding-top: 100px;
-  background-color: #fcf7f8;
+  background-color: #fff;
   text-align: center;
 }
 
@@ -399,7 +437,8 @@ footer a:hover {
     font-size: 22px;
   }
   .lh-subtitle-orange,
-  .lh-subtitle-purple {
+  .lh-subtitle-purple,
+  .lh-subtitle-white {
     font-size: 24px;
   }
   .lh-text-m-black,
@@ -447,7 +486,8 @@ footer a:hover {
     font-size: 19px;
   }
   .lh-subtitle-orange,
-  .lh-subtitle-purple {
+  .lh-subtitle-purple,
+  .lh-subtitle-white {
     font-size: 21px;
   }
   .lh-text-m-black,

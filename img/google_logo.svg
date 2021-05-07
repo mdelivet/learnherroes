@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="44" viewBox="0 0 43 44">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Tracé_193" data-name="Tracé 193" d="M44.5,20H24v8.5H35.8C34.7,33.9,30.1,37,24,37a13,13,0,0,1,0-26,12.718,12.718,0,0,1,8.1,2.9l6.4-6.4A21.986,21.986,0,1,0,24,46c11,0,21-8,21-22A18.251,18.251,0,0,0,44.5,20Z" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="google_logo" transform="translate(-2 -2)">
+    <g id="Groupe_376" data-name="Groupe 376" clip-path="url(#clip-path)">
+      <path id="Tracé_192" data-name="Tracé 192" d="M0,37V11L17,24Z" fill="#fff"/>
+    </g>
+    <g id="Groupe_377" data-name="Groupe 377" clip-path="url(#clip-path)">
+      <path id="Tracé_194" data-name="Tracé 194" d="M0,11,17,24l7-6.1L48,14V0H0Z" fill="#fff"/>
+    </g>
+    <g id="Groupe_378" data-name="Groupe 378" clip-path="url(#clip-path)">
+      <path id="Tracé_196" data-name="Tracé 196" d="M0,37,30,14l7.9,1L48,0V48H0Z" fill="#fff"/>
+    </g>
+    <g id="Groupe_379" data-name="Groupe 379" clip-path="url(#clip-path)">
+      <path id="Tracé_198" data-name="Tracé 198" d="M48,48,17,24l-4-3L48,11Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

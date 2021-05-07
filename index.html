@@ -16,6 +16,36 @@
     <script src="semantic/dist/semantic.min.js"></script>
 </head>
 <body>
+    <div class="lh-connexion" style="display:none">
+        <div class="lh-connexion-modale">
+            <img class="ui image small center middle aligned" src="./img/logo.png" />
+            <h3 class="lh-connexion-title">Bienvenue sur LearnHerroes</h3>
+            <div class="ui fluid input">
+                <input type="text" placeholder="Identifiant">
+            </div>
+            <div class="ui fluid input">
+                <input type="password" placeholder="Mot de passe">
+            </div>
+            <div style="margin-top:5px; text-align:right; font-style: italic;">
+                <a href="">Mot de passe oublié ?</a>
+            </div>
+            <div class="ui checkbox" style="margin-top:20px;">
+                <input type="checkbox">
+                <label>Se souvenir de moi</label>
+            </div>
+            <div class="lh-button-container" style="text-align:center; margin-top:20px;">
+                <button class="ui blue medium button">CONNEXION</button>
+            </div>
+            <div style="margin-top:30px;">
+                <b>OU</b>
+            </div>
+            <div class="lh-button-container" style="margin-top:20px;">
+                <button class="ui red mini button fluid" style="margin-top:10px; background-color:#db4a39 !important; border-radius:2px;"><img src="./img/google_logo.png" class="ui image mini middle aligned" style="margin-right:10px;" /> Se connecter avec Google</button>
+                <button class="ui blue mini button fluid" style="margin-top:10px; background-color:#3b5998 !important; border-radius:2px;"><img src="./img/facebook_logo.png" class="ui image mini middle aligned" style="margin-right:10px;" /> Se connecter avec Facebook</button>
+                <button class="ui blue mini button fluid" style="margin-top:10px; background-color:#0e76a8 !important; border-radius:2px;"><img src="./img/linkedin_logo.png" class="ui image mini middle aligned" style="margin-right:10px;" /> Se connecter avec Linkedin</button>
+            </div>
+        </div>
+    </div>
     <div class="ui small stackable menu fixed">
         <div class="item">
             <img src="./img/logo.png">
@@ -88,16 +118,17 @@
             </div>
         </section>
         <section class="lh-jeu ui container">
-            <div class="lh-title-b-white">APPRENDRE EN S’AMUSANT</div>
-            <div class="lh-text-m-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>Sed ornare ex quis ornare maximus. </div>
-            <div class="lh-subtitle-orange">Votre avatar vous accompagne partout</div>
-            <div class="lh-text-m-white">Curabitur rutrum nisl magna, nec luctus nisl mattis volutpat.<br/>Aenean et rutrum diam. Aliquam rhoncus vehicula leo ac elementum.</div>
-            <div class="lh-subtitle-orange">Progressez à travers des jeux</div>
-            <div class="lh-text-m-white">Donec sit amet neque in lacus porttitor gravida vitae ut urna.<br/>Fusce metus justo, vestibulum id metus ac, aliquet finibus odio. </div>
+            <div class="lh-title-b-white">DÉVELOPPE TES COMPÉTENCES EN JOUANT !</div>
+            <div class="lh-subtitle-orange">Évolue avec le héros que tu as choisi</div>
+            <div class="lh-text-m-white">Développe des apprentissages professionnels métiers et remporte des quiz et challenges avec le héros que tu as choisi.</div>
+            <div style="width:70%; margin:0 auto; margin-bottom:150px;"><img src="./img/progresser.png" class="ui image fluid" /></div>
+            <div class="lh-subtitle-orange">Progresse avec des jeux stimulants</div>
+            <div class="lh-text-m-white">Des jeux qui te font aimer, retenir et comprendre ce que tu apprends pour bâtir ton avenir professionnel ou évoluer dans ta carrière.</div>
+            <div style="width:70%; margin:0 auto; margin-top:100px;"><img src="./img/lesjeux.png" class="ui image fluid" /></div>
         </section>
         <section class="lh-partenaires ui container">
             <div class="lh-title-s-black">Ils nous font confiance</div>
-            <div class="ui small images spaced">
+            <div class="ui medium images spaced">
                 <img class="ui image spaced" src="./img/logos/1.png"/>
                 <img class="ui image spaced" src="./img/logos/2.jpg"/>
                 <img class="ui image spaced" src="./img/logos/3.jpg"/>
@@ -111,35 +142,41 @@
         <section class="lh-communaute ui container center middle aligned">
             <img class="ui fluid image" src="img/personnages/all.png" style="margin-bottom:150px;" />
             <div>
-                <div class="lh-title-b-white" style="text-align:center;">Rejoignez une communauté</div>
-                <div class="ui grid two columns relaxed center middle aligned">
-                    <div class="column four wide right floated middle aligned">
-                        <img src="./img/communauté.png" class="ui image medium circular" />
+                <div class="lh-title-b-white" style="text-align:center;">Bâtissons ensemble une communauté</div>
+                <div class="ui grid four columns relaxed center middle aligned">
+                    <div class="column seven wide right floated middle aligned">
+                        <img src="./img/communauté.png" class="ui image fluid" />
                     </div>
                     <div class="column left floated middle left aligned">
-                        <div class="lh-subtitle-purple">Restez chez vous : des forums à disposition</div>
-                        <div class="lh-text-s-white">Curabitur rutrum nisl magna, nec luctus nisl mattis volutpat.<br/>Aenean et rutrum diam. Aliquam rhoncus vehicula leo ac elementum.</div>
+                        <div><button class="ui blue large button">Rejoignez le <i>groupe Facebook</i> privé</button></div>
+                        <div style="margin-top:30px;"><button class="ui orange large button">Participez à nos <i>rencontres physiques</i> et nos évènements en VIP</button></div>
                     </div>
                 </div>
-                <div class="ui grid two columns relaxed center middle aligned">
-                    <div class="column right floated middle aligned">
-                        <div class="lh-subtitle-purple">Défiez vos amis ou d'autres apprenants  dans les jeux d'apprentissages</div>
-                        <div class="lh-text-s-white">Donec sit amet neque in lacus porttitor gravida vitae ut urna. Fusce metus justo, vestibulum id metus ac, aliquet finibus odio.<br/>Curabitur rutrum nisl magna, nec luctus nisl mattis volutpat.</div>
-                    </div>
-                    <div class="column four wide left floated middle left aligned">
-                        <img src="./img/amis.png" class="ui image medium circular" />
+                <div style="width:70%; margin:150px auto;">
+                    <div class="lh-subtitle-purple" style="text-align:center;">Défiez vos amis et d'autres apprenants dans des battles d'apprentissages</div>
+                    <div class="ui images spaced" style="margin:100px auto 0; text-align:center;">
+                        <img src="./img/amis1.png" class="ui image medium circular" style="margin:20px;" />
+                        <img src="./img/etoile.png" class="ui image tiny" />
+                        <img src="./img/amis2.png" class="ui image medium circular" style="margin:20px;" />
+                        <img src="./img/etoile.png" class="ui image tiny" />
+                        <img src="./img/amis3.png" class="ui image medium circular" style="margin:20px;" />
                     </div>
                 </div>
                 <div class="ui grid two columns relaxed center middle aligned">
                     <div class="column four wide right floated middle aligned">
-                        <img src="./img/champion.png" class="ui image medium circular" />
+                        <img src="./img/trophee.png" class="ui image large" />
                     </div>
                     <div class="column left floated middle left aligned">
-                        <div class="lh-subtitle-purple">Devenez champion local, régional ou international sur une ou des formations</div>
-                        <div class="lh-text-s-white">Curabitur rutrum nisl magna, nec luctus nisl mattis volutpat.<br/>Aenean et rutrum diam. Aliquam rhoncus vehicula leo ac elementum.</div>
+                        <div class="lh-subtitle-white">Devenez champion local, régional ou international sur une ou des formations</div>
+                        <div class="">
+                            <button class="ui orange large button" style="cursor:default; width:23%;">FRANCE</button>
+                            <button class="ui blue large button" style="cursor:default; width:23%;">EUROPE</button>
+                            <button class="ui pink large button" style="cursor:default; width:23%;">AFRIQUE</button>
+                            <button class="ui purple large button" style="cursor:default; width:23%;">CANADA</button>
+                        </div>
                     </div>
                 </div>
-                <div class="ui grid two columns relaxed center middle aligned">
+                <!--<div class="ui grid two columns relaxed center middle aligned">
                     <div class="column right floated middle aligned">
                         <div class="lh-subtitle-purple">Recevez chez vous une plaquette personnalisé d'acquisition de compétence - diplôme LearnHerroes</div>
                         <div class="lh-text-s-white">Curabitur rutrum nisl magna, nec luctus nisl mattis volutpat.<br/>Aenean et rutrum diam. Aliquam rhoncus vehicula leo ac elementum.</div>
@@ -147,7 +184,7 @@
                     <div class="column four wide left floated middle left aligned">
                         <img src="./img/plaquette.png" class="ui image medium circular" />
                     </div>
-                </div>
+                </div>-->
             </div>
             <img src="./img/jeux-ecran.png" class="ui image fluid" style="margin-top: 150px; margin-bottom: 90px;" />
             <div class="ui container center aligned">

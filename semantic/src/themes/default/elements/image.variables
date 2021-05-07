@@ -34,7 +34,7 @@
 @floatedVerticalMargin: 1em;
 
 /* Size */
-@miniWidth: 35px;
+@miniWidth: 15px;
 @tinyWidth: 80px;
 @smallWidth: 150px;
 @mediumWidth: 300px;
